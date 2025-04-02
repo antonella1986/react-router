@@ -1,6 +1,6 @@
 @import 'bootstrap';
 @import 'bootstrap-icons';
-
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 *{
   margin: 0;
