@@ -21,7 +21,7 @@ function App() {
           <Route path="/products/:id" element={<Product />} />
           <Route path="/chisiamo" element={<ChiSiamo />} />
           <Route path="/post" element={<Post />} />
-          <Route path="/*" element={NotFound} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
